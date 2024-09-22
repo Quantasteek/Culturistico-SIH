@@ -28,12 +28,13 @@ const Navbar = () => {
                         <a href="#" className='py-2 px-3 border rounded-md '>Sign In</a>
                         <a href="#" className='bg-gradient-to-r from-orange-500 to bg-orange-800 py-2 px-3 rounded-md'>Create an account</a>
                     </div>
-                    <div className='lg:higgen md:flex flex-col justify-end'>
+                    
+                </div>
+                <div className='lg:higgen md:flex flex-col justify-end lg:relative lg:top-0'>
                         <button onClick={toggleNavbar} className='lg:hidden'>
                             {mobileDrawerOpen ? <X/> : <Menu/>} 
                         </button>
-                    </div>
-                </div>
+                    </div>  
                 {mobileDrawerOpen && (
                     <div className='fixed right-0 z-20 bg-neutral-800 w-full p-12 flex-col  justify-center items-center mt-60 lg:hidden'>
                                                                 <button onClick={toggleNavbar}className=''>
@@ -48,8 +49,8 @@ const Navbar = () => {
                             ))}
                         </ul>
                         <div className="flex justify-between">
-                            <a href="#" className='py-2 px-3 border rounded-md'>Sign In</a>
-                            <a href="" className='py-2 px-5 bg-gradient-to-r from-orange-500 to bg-orange-800'>Create an account</a>
+                            <a href="#" className='py-2 px-3 border rounded-md max-sm:pt-3'>Sign In</a>
+                            <a href="" className='py-2 px-3 bg-gradient-to-r from-orange-500 to bg-orange-800 max-md:text-[12px] max-md:w-37 max-sm:w-20 max-sm:h-12 max-sm:text-[10px] max-sm:pt-[4px]'>Create an account</a>
 
                         </div>
                     </div>
