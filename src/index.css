@@ -6,6 +6,9 @@
 
 :root {
   font-family: "Poppins", sans-serif;
-  color-scheme: dark;
+  /* color-scheme: dark; */
 
+}
+body{
+  background-color: rgb(254 243 199);
 }

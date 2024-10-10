@@ -18,11 +18,11 @@ function Herosection() {
         {text}
     </span>
     </h1>
-    <p className='mt-10 text-lg text-center max-w-4xl'>
+    <p className='mt-10 text-xl font-medium text-center max-w-4xl '>
         Unravel some of the exquisite locations in India, become a part of India's rich culture and heritage. Sign Up today for awesome goodies.
     </p>
     <div className='flex justify-center my-10'>
-        <a href="#" className='bg-gradient-to-r from-orange-500 to-orange-900 py-3 px-4 mx-3 rounded-md'> 
+        <a href="#" className='bg-gradient-to-r from-orange-500 to-red-900 py-3 px-4 mx-3 rounded-md text-white font-medium'> 
             Start for free
         </a>
     </div>
